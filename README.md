@@ -20,6 +20,9 @@ Contact E-mail:  icarbon@ncsu.edu
 
 ```
 
+Then start here
+https://docs.globus.org/globus-connect-server/v5.4/data-access-guide/
+
 identity_map.json
 ```
 {
