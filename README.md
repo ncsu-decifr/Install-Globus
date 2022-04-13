@@ -41,8 +41,9 @@ path-restrictions.json
 ```
 {
     "DATA_TYPE": "path_restrictions#1.0.0",
-    "read_write": ["$USER" + "@ncsu.edu"]
+    "read_write": ["/icarbon_temp_10tb/database/files/$USER@ncsu.edu"]
 }
+
 ```
 
 ## Install Auth app
