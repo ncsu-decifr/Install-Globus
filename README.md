@@ -66,6 +66,7 @@ path-restrictions.json
 }
 
 ```
+useradd -u 58413 galaxy
 
 ## Install Auth app
 
