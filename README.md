@@ -4,6 +4,22 @@
 
 https://docs.globus.org/globus-connect-server/v5.4/
 
+Follow instructions here up to 
+
+```
+sudo globus-connect-server endpoint show
+
+Display Name:    icarbon EDC Endpoint
+ID:              bc07d979-fe9e-4d96-811c-9e04116df15c
+Subscription ID: None
+Public:          True
+GCS Manager URL: https://eeca61.6fbd.data.globus.org
+Network Use:     normal
+Organization:    NC State Univ
+Contact E-mail:  icarbon@ncsu.edu
+
+```
+
 identity_map.json
 ```
 {
