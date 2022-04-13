@@ -29,7 +29,10 @@ globus-connect-server storage-gateway create posix "Gateway user galaxy" \
     --restrict-paths file:path-restrictions.json \
     --domain ncsu.edu
     
-globus-connect-server storage-gateway list  
+globus-connect-server storage-gateway list\
+Display Name        | ID                                   | Connector | High Assurance | MFA  
+------------------- | ------------------------------------ | --------- | -------------- | -----
+Gateway user galaxy | cf299ec6-5aa7-42f2-94a3-ce20ddee7c7e | POSIX     | False          | False
 ```
 
 identity_map.json
