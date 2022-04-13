@@ -23,6 +23,13 @@ Contact E-mail:  icarbon@ncsu.edu
 Then start here
 https://docs.globus.org/globus-connect-server/v5.4/data-access-guide/
 
+```
+sudo globus-connect-server storage-gateway create posix "Gateway user galaxy" \
+    --identity-mapping file:identity_map.json \
+    --restrict-paths file:path-restrictions.json \
+    --domain ncsu.edu
+```
+
 identity_map.json
 ```
 {
