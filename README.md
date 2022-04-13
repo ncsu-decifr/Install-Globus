@@ -33,6 +33,15 @@ globus-connect-server storage-gateway list
 Display Name        | ID                                   | Connector | High Assurance | MFA  
 ------------------- | ------------------------------------ | --------- | -------------- | -----
 Gateway user galaxy | cf299ec6-5aa7-42f2-94a3-ce20ddee7c7e | POSIX     | False          | False
+
+globus-connect-server collection create cf299ec6-5aa7-42f2-94a3-ce20ddee7c7e \
+/icarbon_temp_10tb/database/files "Gateway user galaxy"
+
+globus-connect-server collection list
+ID                                   | Display Name        | Owner             | Collection Type | Storage Gateway ID                  
+------------------------------------ | ------------------- | ----------------- | --------------- | ------------------------------------
+2ee2a005-5c76-4e81-a866-2513dade1ca3 | Gateway user galaxy | jbwhite2@ncsu.edu | mapped          | cf299ec6-5aa7-42f2-94a3-ce20ddee7c7e
+
 ```
 
 identity_map.json
