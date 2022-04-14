@@ -25,7 +25,6 @@ https://docs.globus.org/globus-connect-server/v5.4/data-access-guide/
 
 ```
 globus-connect-server storage-gateway create posix "Gateway user galaxy" \
-    --identity-mapping file:identity_map.json \
     --restrict-paths file:path-restrictions.json \
     --domain ncsu.edu
     
@@ -44,7 +43,7 @@ ID                                   | Display Name        | Owner             |
 
 ```
 
-identity_map.json
+identity_map.json. this is in the notes but is not used.
 ```
 {
   "DATA_TYPE": "expression_identity_mapping#1.0.0",
