@@ -43,7 +43,9 @@ ID                                   | Display Name        | Owner             |
 
 ```
 
-identity_map.json. this is in the notes but is not used.
+identity_map.json is in the notes but is not used.
+
+Search for Collection name to connect to globus, ie name given in command globus-connect-server collection list.
 ```
 {
   "DATA_TYPE": "expression_identity_mapping#1.0.0",
