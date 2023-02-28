@@ -77,7 +77,7 @@ https://galaxyproject.org/authnz/use/oidc/idps/globus/
 
 https://galaxyproject.org/authnz/config/oidc/idps/globus/
 
-## bug fix for login app from globus
+### Bug fix for login app from globus
 As a quick fix, please, add 'RS512' to the list in galaxy/.venv/lib/python3.10/site-packages/social_core/backends/open_id_connect.py in line 46, so it looks like:
 
 JWT_ALGORITHMS = ['RS256', 'RS512']
