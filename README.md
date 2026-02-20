@@ -8,6 +8,8 @@ https://docs.globus.org/globus-connect-server/v5.4/quickstart/
 
 https://developers.globus.org/
 
+https://galaxyproject.org/authnz/config/oidc/idps/globus/
+
 Follow instructions here up to 
 
 ```
