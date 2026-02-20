@@ -6,6 +6,8 @@ https://docs.globus.org/globus-connect-server/v5.4/
 
 https://docs.globus.org/globus-connect-server/v5.4/quickstart/
 
+https://auth.globus.org/v2/web/developers
+
 Follow instructions here up to 
 
 ```
