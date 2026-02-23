@@ -116,4 +116,6 @@ sudo apt install globus-connect-server54
 sudo gcs node setup --show-stack-trace
 ```
 
-Deployment key is located in /root folder.
+Deployment key is located in /root folder. After install key must be updated.
+https://docs.globus.org/globus-connect-server/v5/reference/endpoint/key-convert/
+The client ID and client secret can be found at https://developers.globus.org/
