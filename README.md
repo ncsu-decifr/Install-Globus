@@ -90,6 +90,8 @@ JWT_ALGORITHMS = ['RS256', 'RS512']
 
 ## How to reinstall
 
+
+
 ```
 sudo apt purge \*globus\*
 sudo rm -rf /etc/globus/ \
@@ -105,3 +107,13 @@ sudo rm -rf /etc/globus/ \
             /run/globus_oidc.sock \
             /run/globus-connect-server
 ```
+
+```
+curl -LOs https://downloads.globus.org/globus-connect-server/stable/installers/repo/deb/globus-repo_latest_all.deb
+sudo dpkg -i globus-repo_latest_all.deb
+sudo apt update
+sudo apt install globus-connect-server54
+sudo gcs node setup --show-stack-trace
+```
+
+Deployment key is located in /root folder.
