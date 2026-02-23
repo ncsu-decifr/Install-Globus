@@ -91,7 +91,6 @@ JWT_ALGORITHMS = ['RS256', 'RS512']
 ## How to reinstall
 
 
-
 ```
 sudo apt purge \*globus\*
 sudo rm -rf /etc/globus/ \
