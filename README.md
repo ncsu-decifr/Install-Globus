@@ -88,4 +88,20 @@ As a quick fix, please, add 'RS512' to the list in galaxy/.venv/lib/python3.10/s
 
 JWT_ALGORITHMS = ['RS256', 'RS512']
 
+## How to reinstall
 
+```
+sudo apt purge \*globus\*
+sudo rm -rf /etc/globus/ \
+            /etc/grid-security/ \
+            /etc/gridftp.d/ \
+            /etc/gridftp.conf \
+            /etc/apt/preferences.d/globus \
+            /etc/logrotate.d/globus-connect-server \
+            /var/lib/globusoidc/ \
+            /var/lib/globus-connect-server/ \
+            /var/log/gridftp.log* \
+            /var/log/globus-connect-server/ \
+            /run/globus_oidc.sock \
+            /run/globus-connect-server
+```
